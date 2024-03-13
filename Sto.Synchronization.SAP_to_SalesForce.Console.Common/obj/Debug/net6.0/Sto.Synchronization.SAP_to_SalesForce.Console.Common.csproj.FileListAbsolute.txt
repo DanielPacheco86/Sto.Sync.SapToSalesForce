@@ -21,3 +21,15 @@ E:\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Cons
 E:\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\refint\Sto.Synchronization.SAP_to_SalesForce.Console.Common.dll
 E:\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.pdb
 E:\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\ref\Sto.Synchronization.SAP_to_SalesForce.Console.Common.dll
+D:\Daniel\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\bin\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.deps.json
+D:\Daniel\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\bin\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.dll
+D:\Daniel\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\bin\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.pdb
+D:\Daniel\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj.AssemblyReference.cache
+D:\Daniel\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Daniel\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.AssemblyInfoInputs.cache
+D:\Daniel\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.AssemblyInfo.cs
+D:\Daniel\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj.CoreCompileInputs.cache
+D:\Daniel\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.dll
+D:\Daniel\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\refint\Sto.Synchronization.SAP_to_SalesForce.Console.Common.dll
+D:\Daniel\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.pdb
+D:\Daniel\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\ref\Sto.Synchronization.SAP_to_SalesForce.Console.Common.dll

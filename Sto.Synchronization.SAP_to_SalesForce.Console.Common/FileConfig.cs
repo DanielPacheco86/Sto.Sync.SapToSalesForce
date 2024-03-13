@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Sto.Synchronization.SAP_to_SalesForce.Console.Common
 {
-    public class FilesConfig
+    public class FileConfig
     {
-        public FilesConfig() 
+        public FileConfig() 
         {
             Id = string.Empty;
             File_Separator = string.Empty;

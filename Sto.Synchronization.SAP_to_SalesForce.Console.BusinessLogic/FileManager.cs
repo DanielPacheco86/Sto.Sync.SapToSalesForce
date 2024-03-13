@@ -1,14 +1,6 @@
-﻿using NPOI.SS.Formula.Functions;
-using Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.Class;
-using Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.Interface;
+﻿using Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.Interface;
 using Sto.Synchronization.SAP_to_SalesForce.Console.Common;
 using Sto.Synchronization.SAP_to_SalesForce.Console.Utility;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
 {
@@ -20,24 +12,20 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
         {
             _synchronizerCreator = synchronizerCreator;
         }
-        //Ejecutamos nuestro exec que lo ejecuta el program aca es donde entra primera vea el programa
-        //obtenemos la configuracion de los archivos 
-        //obtenemos la clase para cada archivo 
+
         public void Execute()
         {
-            IEnumerable<FilesConfig> allConfigFiles = GetConfigurationFiles();
-            foreach (FilesConfig configFile in allConfigFiles)
+            IEnumerable<FileConfig> allConfigFiles = GetConfigurationFiles();
+            foreach (FileConfig configFile in allConfigFiles)
             {
                 var fileProcessor = _synchronizerCreator.GetSynchronizerObject(configFile.Id);
-                //var obtainClass = GetFileType(configFile.Id);
                 var result = fileProcessor.SynchronizeDataAsync(configFile);
             }
         }
-        //obtenemos la configuración de todos los archivos
-        public static IEnumerable<FilesConfig> GetConfigurationFiles()
+        public static IEnumerable<FileConfig> GetConfigurationFiles()
         {
             string jsonFilesConfig = File.ReadAllText(ConfigurationManager.GetConfigurationValueByKey("filesConfigPath"));
-            return Extender.DeSerializeObject<IEnumerable<FilesConfig>>(jsonFilesConfig);
+            return Extender.DeSerializeObject<IEnumerable<FileConfig>>(jsonFilesConfig);
             
         }
 

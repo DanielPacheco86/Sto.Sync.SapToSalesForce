@@ -1,21 +1,13 @@
 ﻿using Microsoft.VisualBasic.FileIO;
 
 using Sto.Synchronization.SAP_to_SalesForce.Console.Common;
-using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.IO;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
 {
-    public static class LogicFiles
+    public static class FileHelper
     {
        
-        public static List<string> ObtainFiles(FilesConfig config)
+        public static List<string> GetFiles(FileConfig config)
         {
             List<string> processedFiles = new List<string>();
             if (Directory.Exists(config.File_Path))
@@ -62,7 +54,7 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
             System.IO.File.Move(filePathOriginal, destination);
         }
 
-        public static string ReadFile(string file,FilesConfig fileConfig)
+        public static string ReadFile(string file, FileConfig fileConfig)
         {
             using (TextFieldParser parser = new TextFieldParser(file))
             {
