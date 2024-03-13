@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Sto.Synchronization.SAP_to_SalesForce.Console.Common/1.0.0": {
+        "runtime": {
+          "Sto.Synchronization.SAP_to_SalesForce.Console.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sto.Synchronization.SAP_to_SalesForce.Console.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,2091 @@
+[
+  {
+    "codeSAP": "US",
+    "homologationValues": [
+      {
+        "code": "US"
+      },
+      {
+        "code": "USA"
+      },
+      {
+        "code": "United States"
+      },
+      {
+        "code": "United States of America"
+      }
+    ],
+    "states": [
+      {
+        "codeSAP": "AK",
+        "homologationValues": [
+          {
+            "code": "AK"
+          },
+          {
+            "code": "Alaska"
+          }
+        ]
+      },
+      {
+        "codeSAP": "AL",
+        "homologationValues": [
+          {
+            "code": "AL"
+          },
+          {
+            "code": "Alabama"
+          }
+        ]
+      },
+      {
+        "codeSAP": "AR",
+        "homologationValues": [
+          {
+            "code": "AR"
+          },
+          {
+            "code": "Arkansas"
+          }
+        ]
+      },
+      {
+        "codeSAP": "AS",
+        "homologationValues": [
+          {
+            "code": "AS"
+          },
+          {
+            "code": "American Samoa"
+          }
+        ]
+      },
+      {
+        "codeSAP": "AZ",
+        "homologationValues": [
+          {
+            "code": "AZ"
+          },
+          {
+            "code": "Arizona"
+          }
+        ]
+      },
+      {
+        "codeSAP": "CA",
+        "homologationValues": [
+          {
+            "code": "CA"
+          },
+          {
+            "code": "California"
+          }
+        ]
+      },
+      {
+        "codeSAP": "CO",
+        "homologationValues": [
+          {
+            "code": "CO"
+          },
+          {
+            "code": "Colorado"
+          }
+        ]
+      },
+      {
+        "codeSAP": "CT",
+        "homologationValues": [
+          {
+            "code": "CT"
+          },
+          {
+            "code": "Connecticut"
+          }
+        ]
+      },
+      {
+        "codeSAP": "DC",
+        "homologationValues": [
+          {
+            "code": "DC"
+          },
+          {
+            "code": "District of Columbia"
+          }
+        ]
+      },
+      {
+        "codeSAP": "DE",
+        "homologationValues": [
+          {
+            "code": "DE"
+          },
+          {
+            "code": "Delaware"
+          }
+        ]
+      },
+      {
+        "codeSAP": "FL",
+        "homologationValues": [
+          {
+            "code": "FL"
+          },
+          {
+            "code": "Florida"
+          }
+        ]
+      },
+      {
+        "codeSAP": "GA",
+        "homologationValues": [
+          {
+            "code": "GA"
+          },
+          {
+            "code": "Georgia"
+          }
+        ]
+      },
+      {
+        "codeSAP": "GU",
+        "homologationValues": [
+          {
+            "code": "GU"
+          },
+          {
+            "code": "Guam"
+          }
+        ]
+      },
+      {
+        "codeSAP": "HI",
+        "homologationValues": [
+          {
+            "code": "HI"
+          },
+          {
+            "code": "Hawaii"
+          }
+        ]
+      },
+      {
+        "codeSAP": "IA",
+        "homologationValues": [
+          {
+            "code": "IA"
+          },
+          {
+            "code": "Iowa"
+          }
+        ]
+      },
+      {
+        "codeSAP": "ID",
+        "homologationValues": [
+          {
+            "code": "ID"
+          },
+          {
+            "code": "Idaho"
+          }
+        ]
+      },
+      {
+        "codeSAP": "IL",
+        "homologationValues": [
+          {
+            "code": "IL"
+          },
+          {
+            "code": "Illinois"
+          }
+        ]
+      },
+      {
+        "codeSAP": "IN",
+        "homologationValues": [
+          {
+            "code": "IN"
+          },
+          {
+            "code": "Indiana"
+          }
+        ]
+      },
+      {
+        "codeSAP": "KS",
+        "homologationValues": [
+          {
+            "code": "KS"
+          },
+          {
+            "code": "Kansas"
+          }
+        ]
+      },
+      {
+        "codeSAP": "KY",
+        "homologationValues": [
+          {
+            "code": "KY"
+          },
+          {
+            "code": "Kentucky"
+          }
+        ]
+      },
+      {
+        "codeSAP": "LA",
+        "homologationValues": [
+          {
+            "code": "LA"
+          },
+          {
+            "code": "Louisiana"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MA",
+        "homologationValues": [
+          {
+            "code": "MA"
+          },
+          {
+            "code": "Massachusetts"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MD",
+        "homologationValues": [
+          {
+            "code": "MD"
+          },
+          {
+            "code": "Maryland"
+          }
+        ]
+      },
+      {
+        "codeSAP": "ME",
+        "homologationValues": [
+          {
+            "code": "ME"
+          },
+          {
+            "code": "Maine"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MI",
+        "homologationValues": [
+          {
+            "code": "MI"
+          },
+          {
+            "code": "Michigan"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MN",
+        "homologationValues": [
+          {
+            "code": "MN"
+          },
+          {
+            "code": "Minnesota"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MO",
+        "homologationValues": [
+          {
+            "code": "MO"
+          },
+          {
+            "code": "Missouri"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MP",
+        "homologationValues": [
+          {
+            "code": "MP"
+          },
+          {
+            "code": "Northern Mariana Isl"
+          }
+        ]
+      },
+      {
+        "codeSAP": "GU",
+        "homologationValues": [
+          {
+            "code": "MS"
+          },
+          {
+            "code": "Mississippi"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MT",
+        "homologationValues": [
+          {
+            "code": "MT"
+          },
+          {
+            "code": "Montana"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NC",
+        "homologationValues": [
+          {
+            "code": "NC"
+          },
+          {
+            "code": "North Carolina"
+          }
+        ]
+      },
+      {
+        "codeSAP": "ND",
+        "homologationValues": [
+          {
+            "code": "ND"
+          },
+          {
+            "code": "North Dakota"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NE",
+        "homologationValues": [
+          {
+            "code": "NE"
+          },
+          {
+            "code": "Nebraska"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NH",
+        "homologationValues": [
+          {
+            "code": "NH"
+          },
+          {
+            "code": "New Hampshire"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NJ",
+        "homologationValues": [
+          {
+            "code": "NJ"
+          },
+          {
+            "code": "New Jersey"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NM",
+        "homologationValues": [
+          {
+            "code": "NM"
+          },
+          {
+            "code": "New Mexico"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NV",
+        "homologationValues": [
+          {
+            "code": "NV"
+          },
+          {
+            "code": "Nevada"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NY",
+        "homologationValues": [
+          {
+            "code": "NY"
+          },
+          {
+            "code": "New York"
+          }
+        ]
+      },
+      {
+        "codeSAP": "OH",
+        "homologationValues": [
+          {
+            "code": "OH"
+          },
+          {
+            "code": "Ohio"
+          }
+        ]
+      },
+      {
+        "codeSAP": "OK",
+        "homologationValues": [
+          {
+            "code": "OK"
+          },
+          {
+            "code": "Oklahoma"
+          }
+        ]
+      },
+      {
+        "codeSAP": "OR",
+        "homologationValues": [
+          {
+            "code": "OR"
+          },
+          {
+            "code": "Oregon"
+          }
+        ]
+      },
+      {
+        "codeSAP": "PA",
+        "homologationValues": [
+          {
+            "code": "PA"
+          },
+          {
+            "code": "Pennsylvania"
+          }
+        ]
+      },
+      {
+        "codeSAP": "PR",
+        "homologationValues": [
+          {
+            "code": "PR"
+          },
+          {
+            "code": "Puerto Rico"
+          }
+        ]
+      },
+      {
+        "codeSAP": "RI",
+        "homologationValues": [
+          {
+            "code": "RI"
+          },
+          {
+            "code": "Rhode Island"
+          }
+        ]
+      },
+      {
+        "codeSAP": "SC",
+        "homologationValues": [
+          {
+            "code": "SC"
+          },
+          {
+            "code": "South Carolina"
+          }
+        ]
+      },
+      {
+        "codeSAP": "SD",
+        "homologationValues": [
+          {
+            "code": "SD"
+          },
+          {
+            "code": "South Dakota"
+          }
+        ]
+      },
+      {
+        "codeSAP": "TN",
+        "homologationValues": [
+          {
+            "code": "TN"
+          },
+          {
+            "code": "Tennessee"
+          }
+        ]
+      },
+      {
+        "codeSAP": "TX",
+        "homologationValues": [
+          {
+            "code": "TX"
+          },
+          {
+            "code": "Texas"
+          }
+        ]
+      },
+      {
+        "codeSAP": "UT",
+        "homologationValues": [
+          {
+            "code": "UT"
+          },
+          {
+            "code": "Utah"
+          }
+        ]
+      },
+      {
+        "codeSAP": "VA",
+        "homologationValues": [
+          {
+            "code": "VA"
+          },
+          {
+            "code": "Virginia"
+          }
+        ]
+      },
+      {
+        "codeSAP": "VI",
+        "homologationValues": [
+          {
+            "code": "VI"
+          },
+          {
+            "code": "Virgin Islands"
+          }
+        ]
+      },
+      {
+        "codeSAP": "VT",
+        "homologationValues": [
+          {
+            "code": "VT"
+          },
+          {
+            "code": "Vermont"
+          }
+        ]
+      },
+      {
+        "codeSAP": "WA",
+        "homologationValues": [
+          {
+            "code": "WA"
+          },
+          {
+            "code": "Washington"
+          }
+        ]
+      },
+      {
+        "codeSAP": "WI",
+        "homologationValues": [
+          {
+            "code": "WI"
+          },
+          {
+            "code": "Wisconsin"
+          }
+        ]
+      },
+      {
+        "codeSAP": "WV",
+        "homologationValues": [
+          {
+            "code": "WV"
+          },
+          {
+            "code": "West Virginia"
+          }
+        ]
+      },
+      {
+        "codeSAP": "WY",
+        "homologationValues": [
+          {
+            "code": "WY"
+          },
+          {
+            "code": "Wyoming"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codeSAP": "BR",
+    "homologationValues": [
+      {
+        "code": "Brazil"
+      },
+      {
+        "code": "BR"
+      },
+      {
+        "code": "Brasil"
+      }
+    ],
+    "states": [
+      {
+        "codeSAP": "AC",
+        "homologationValues": [
+          {
+            "code": "AC"
+          },
+          {
+            "code": "Acre"
+          }
+        ]
+      },
+      {
+        "codeSAP": "AL",
+        "homologationValues": [
+          {
+            "code": "AL"
+          },
+          {
+            "code": "Alagoas"
+          }
+        ]
+      },
+      {
+        "codeSAP": "AM",
+        "homologationValues": [
+          {
+            "code": "AM"
+          },
+          {
+            "code": "Amazonas"
+          }
+        ]
+      },
+      {
+        "codeSAP": "AP",
+        "homologationValues": [
+          {
+            "code": "AP"
+          },
+          {
+            "code": "Amapá"
+          },
+          {
+            "code": "Amapa"
+          }
+        ]
+      },
+      {
+        "codeSAP": "BA",
+        "homologationValues": [
+          {
+            "code": "BA"
+          },
+          {
+            "code": "Bahia"
+          }
+        ]
+      },
+      {
+        "codeSAP": "CE",
+        "homologationValues": [
+          {
+            "code": "CE"
+          },
+          {
+            "code": "Ceará"
+          },
+          {
+            "code": "Ceara"
+          }
+        ]
+      },
+      {
+        "codeSAP": "DF",
+        "homologationValues": [
+          {
+            "code": "DF"
+          },
+          {
+            "code": "Brasília"
+          }
+        ]
+      },
+      {
+        "codeSAP": "ES",
+        "homologationValues": [
+          {
+            "code": "ES"
+          },
+          {
+            "code": "Espírito San"
+          },
+          {
+            "code": "Espirito San"
+          }
+        ]
+      },
+      {
+        "codeSAP": "GO",
+        "homologationValues": [
+          {
+            "code": "GO"
+          },
+          {
+            "code": "Goiás"
+          },
+          {
+            "code": "Goias"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MA",
+        "homologationValues": [
+          {
+            "code": "MA"
+          },
+          {
+            "code": "Maranhão"
+          },
+          {
+            "code": "Maranhao"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MG",
+        "homologationValues": [
+          {
+            "code": "MG"
+          },
+          {
+            "code": "Minas Gerais"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MS",
+        "homologationValues": [
+          {
+            "code": "MS"
+          },
+          {
+            "code": "Mato Grosso"
+          }
+        ]
+      },
+      {
+        "codeSAP": "PA",
+        "homologationValues": [
+          {
+            "code": "PA"
+          },
+          {
+            "code": "Para"
+          }
+        ]
+      },
+      {
+        "codeSAP": "PB",
+        "homologationValues": [
+          {
+            "code": "PB"
+          },
+          {
+            "code": "Paraíba"
+          },
+          {
+            "code": "Paraiba"
+          }
+        ]
+      },
+      {
+        "codeSAP": "PE",
+        "homologationValues": [
+          {
+            "code": "PE"
+          },
+          {
+            "code": "Pernambuco"
+          }
+        ]
+      },
+      {
+        "codeSAP": "PI",
+        "homologationValues": [
+          {
+            "code": "PI"
+          },
+          {
+            "code": "Piauí"
+          },
+          {
+            "code": "Piaui"
+          }
+        ]
+      },
+      {
+        "codeSAP": "PR",
+        "homologationValues": [
+          {
+            "code": "PR"
+          },
+          {
+            "code": "Paraná"
+          },
+          {
+            "code": "Paraná"
+          }
+        ]
+      },
+      {
+        "codeSAP": "RJ",
+        "homologationValues": [
+          {
+            "code": "RJ"
+          },
+          {
+            "code": "Rio de Janeiro"
+          }
+        ]
+      },
+      {
+        "codeSAP": "RN",
+        "homologationValues": [
+          {
+            "code": "RN"
+          },
+          {
+            "code": "Rio Grande do Norte"
+          }
+        ]
+      },
+      {
+        "codeSAP": "RO",
+        "homologationValues": [
+          {
+            "code": "RO"
+          },
+          {
+            "code": "Rondônia"
+          },
+          {
+            "code": "Rondonia"
+          }
+        ]
+      },
+      {
+        "codeSAP": "RR",
+        "homologationValues": [
+          {
+            "code": "RR"
+          },
+          {
+            "code": "Roraima"
+          }
+        ]
+      },
+      {
+        "codeSAP": "RS",
+        "homologationValues": [
+          {
+            "code": "RS"
+          },
+          {
+            "code": "Rio Grande do Sul"
+          }
+        ]
+      },
+      {
+        "codeSAP": "SC",
+        "homologationValues": [
+          {
+            "code": "SC"
+          },
+          {
+            "code": "Santa Catarina"
+          }
+        ]
+      },
+      {
+        "codeSAP": "SE",
+        "homologationValues": [
+          {
+            "code": "SE"
+          },
+          {
+            "code": "Sergipe"
+          }
+        ]
+      },
+      {
+        "codeSAP": "SP",
+        "homologationValues": [
+          {
+            "code": "SP"
+          },
+          {
+            "code": "São Paulo"
+          },
+          {
+            "code": "Sao Paulo"
+          }
+        ]
+      },
+      {
+        "codeSAP": "TO",
+        "homologationValues": [
+          {
+            "code": "TO"
+          },
+          {
+            "code": "Tocantins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codeSAP": "CA",
+    "homologationValues": [
+      {
+        "code": "Canada"
+      },
+      {
+        "code": "CA"
+      },
+      {
+        "code": "Canadá"
+      }
+    ],
+    "states": [
+      {
+        "codeSAP": "AB",
+        "homologationValues": [
+          {
+            "code": "AB"
+          },
+          {
+            "code": "Alberta"
+          }
+        ]
+      },
+      {
+        "codeSAP": "BC",
+        "homologationValues": [
+          {
+            "code": "BC"
+          },
+          {
+            "code": "British Columbia"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MB",
+        "homologationValues": [
+          {
+            "code": "MB"
+          },
+          {
+            "code": "Manitoba"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NB",
+        "homologationValues": [
+          {
+            "code": "NB"
+          },
+          {
+            "code": "New Brunswick"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NL",
+        "homologationValues": [
+          {
+            "code": "NL"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NS",
+        "homologationValues": [
+          {
+            "code": "NS"
+          },
+          {
+            "code": "Nova Scotia"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NT",
+        "homologationValues": [
+          {
+            "code": "NT"
+          },
+          {
+            "code": "Northwest Territory"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NU",
+        "homologationValues": [
+          {
+            "code": "NU"
+          }
+        ]
+      },
+      {
+        "codeSAP": "ON",
+        "homologationValues": [
+          {
+            "code": "ON"
+          },
+          {
+            "code": "Ontario"
+          }
+        ]
+      },
+      {
+        "codeSAP": "PE",
+        "homologationValues": [
+          {
+            "code": "PE"
+          },
+          {
+            "code": "Prince Edward Island"
+          }
+        ]
+      },
+      {
+        "codeSAP": "QC",
+        "homologationValues": [
+          {
+            "code": "QC"
+          },
+          {
+            "code": "Quebec"
+          }
+        ]
+      },
+      {
+        "codeSAP": "SK",
+        "homologationValues": [
+          {
+            "code": "SK"
+          },
+          {
+            "code": "Saskatchewan"
+          }
+        ]
+      },
+      {
+        "codeSAP": "YT",
+        "homologationValues": [
+          {
+            "code": "YT"
+          },
+          {
+            "code": "Yukon Territory"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codeSAP": "CL",
+    "homologationValues": [
+      {
+        "code": "Chile"
+      },
+      {
+        "code": "CL"
+      }
+    ],
+    "states": [
+      {
+        "codeSAP": "01",
+        "homologationValues": [
+          {
+            "code": "01"
+          },
+          {
+            "code": "Tarapacá"
+          },
+          {
+            "code": "Tarapaca"
+          }
+        ]
+      },
+      {
+        "codeSAP": "02",
+        "homologationValues": [
+          {
+            "code": "02"
+          },
+          {
+            "code": "Antofagasta"
+          }
+        ]
+      },
+      {
+        "codeSAP": "03",
+        "homologationValues": [
+          {
+            "code": "03"
+          },
+          {
+            "code": "Atacama"
+          }
+        ]
+      },
+      {
+        "codeSAP": "04",
+        "homologationValues": [
+          {
+            "code": "04"
+          },
+          {
+            "code": "Coquimbo"
+          }
+        ]
+      },
+      {
+        "codeSAP": "05",
+        "homologationValues": [
+          {
+            "code": "05"
+          },
+          {
+            "code": "Valparaíso"
+          },
+          {
+            "code": "Valparaiso"
+          }
+        ]
+      },
+      {
+        "codeSAP": "06",
+        "homologationValues": [
+          {
+            "code": "06"
+          },
+          {
+            "code": "O'Higgins"
+          }
+        ]
+      },
+      {
+        "codeSAP": "07",
+        "homologationValues": [
+          {
+            "code": "07"
+          },
+          {
+            "code": "Maule"
+          }
+        ]
+      },
+      {
+        "codeSAP": "08",
+        "homologationValues": [
+          {
+            "code": "08"
+          },
+          {
+            "code": "Biobío"
+          },
+          {
+            "code": "Biobio"
+          }
+        ]
+      },
+      {
+        "codeSAP": "09",
+        "homologationValues": [
+          {
+            "code": "09"
+          },
+          {
+            "code": "Araucanía"
+          },
+          {
+            "code": "Araucania"
+          }
+        ]
+      },
+      {
+        "codeSAP": "10",
+        "homologationValues": [
+          {
+            "code": "10"
+          },
+          {
+            "code": "Los Lagos"
+          }
+        ]
+      },
+      {
+        "codeSAP": "11",
+        "homologationValues": [
+          {
+            "code": "11"
+          },
+          {
+            "code": "Aisén"
+          },
+          {
+            "code": "Aisen"
+          }
+        ]
+      },
+      {
+        "codeSAP": "12",
+        "homologationValues": [
+          {
+            "code": "12"
+          },
+          {
+            "code": "Magallanes and Antár"
+          },
+          {
+            "code": "Magallanes and Antar"
+          }
+        ]
+      },
+      {
+        "codeSAP": "13",
+        "homologationValues": [
+          {
+            "code": "13"
+          }
+        ]
+      },
+      {
+        "codeSAP": "14",
+        "homologationValues": [
+          {
+            "code": "14"
+          },
+          {
+            "code": "Los Ríos"
+          },
+          {
+            "code": "Los Rios"
+          }
+        ]
+      },
+      {
+        "codeSAP": "15",
+        "homologationValues": [
+          {
+            "code": "15"
+          },
+          {
+            "code": "Arica and Parinacota"
+          }
+        ]
+      },
+      {
+        "codeSAP": "RM",
+        "homologationValues": [
+          {
+            "code": "RM"
+          },
+          {
+            "code": "Santiago Metropolita"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codeSAP": "CO",
+    "homologationValues": [
+      {
+        "code": "Colombia"
+      },
+      {
+        "code": "CO"
+      }
+    ],
+    "states": [
+      {
+        "codeSAP": "05",
+        "homologationValues": [
+          {
+            "code": "05"
+          },
+          {
+            "code": "ANTIOQUIA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "08",
+        "homologationValues": [
+          {
+            "code": "08"
+          },
+          {
+            "code": "ATLANTICO"
+          }
+        ]
+      },
+      {
+        "codeSAP": "11",
+        "homologationValues": [
+          {
+            "code": "11"
+          },
+          {
+            "code": "BOGOTA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "13",
+        "homologationValues": [
+          {
+            "code": "13"
+          },
+          {
+            "code": "BOLIVAR"
+          }
+        ]
+      },
+      {
+        "codeSAP": "15",
+        "homologationValues": [
+          {
+            "code": "15"
+          },
+          {
+            "code": "BOYACA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "17",
+        "homologationValues": [
+          {
+            "code": "17"
+          },
+          {
+            "code": "CALDAS"
+          }
+        ]
+      },
+      {
+        "codeSAP": "18",
+        "homologationValues": [
+          {
+            "code": "18"
+          },
+          {
+            "code": "CAQUETA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "19",
+        "homologationValues": [
+          {
+            "code": "19"
+          },
+          {
+            "code": "CAUCA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "20",
+        "homologationValues": [
+          {
+            "code": "20"
+          },
+          {
+            "code": "CESAR"
+          }
+        ]
+      },
+      {
+        "codeSAP": "23",
+        "homologationValues": [
+          {
+            "code": "23"
+          },
+          {
+            "code": "CORDOBA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "25",
+        "homologationValues": [
+          {
+            "code": "25"
+          },
+          {
+            "code": "CUNDINAMARCA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "27",
+        "homologationValues": [
+          {
+            "code": "27"
+          },
+          {
+            "code": "CHOCO"
+          }
+        ]
+      },
+      {
+        "codeSAP": "41",
+        "homologationValues": [
+          {
+            "code": "41"
+          },
+          {
+            "code": "HUILA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "44",
+        "homologationValues": [
+          {
+            "code": "44"
+          },
+          {
+            "code": "LA GUAJIRA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "47",
+        "homologationValues": [
+          {
+            "code": "47"
+          },
+          {
+            "code": "MAGDALENA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "50",
+        "homologationValues": [
+          {
+            "code": "50"
+          },
+          {
+            "code": "META"
+          }
+        ]
+      },
+      {
+        "codeSAP": "52",
+        "homologationValues": [
+          {
+            "code": "52"
+          },
+          {
+            "code": "NARIÑO"
+          }
+        ]
+      },
+      {
+        "codeSAP": "54",
+        "homologationValues": [
+          {
+            "code": "54"
+          },
+          {
+            "code": "NORTE SANTANDER"
+          }
+        ]
+      },
+      {
+        "codeSAP": "63",
+        "homologationValues": [
+          {
+            "code": "63"
+          },
+          {
+            "code": "QUINDIO"
+          }
+        ]
+      },
+      {
+        "codeSAP": "66",
+        "homologationValues": [
+          {
+            "code": "66"
+          },
+          {
+            "code": "RISARALDA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "68",
+        "homologationValues": [
+          {
+            "code": "68"
+          },
+          {
+            "code": "SANTANDER"
+          }
+        ]
+      },
+      {
+        "codeSAP": "70",
+        "homologationValues": [
+          {
+            "code": "70"
+          },
+          {
+            "code": "SUCRE"
+          }
+        ]
+      },
+      {
+        "codeSAP": "73",
+        "homologationValues": [
+          {
+            "code": "73"
+          },
+          {
+            "code": "TOLIMA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "76",
+        "homologationValues": [
+          {
+            "code": "76"
+          },
+          {
+            "code": "VALLE"
+          }
+        ]
+      },
+      {
+        "codeSAP": "81",
+        "homologationValues": [
+          {
+            "code": "81"
+          },
+          {
+            "code": "ARAUCA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "85",
+        "homologationValues": [
+          {
+            "code": "85"
+          },
+          {
+            "code": "CASANARE"
+          }
+        ]
+      },
+      {
+        "codeSAP": "86",
+        "homologationValues": [
+          {
+            "code": "86"
+          },
+          {
+            "code": "PUTUMAYO"
+          }
+        ]
+      },
+      {
+        "codeSAP": "88",
+        "homologationValues": [
+          {
+            "code": "88"
+          },
+          {
+            "code": "SAN ANDRES"
+          }
+        ]
+      },
+      {
+        "codeSAP": "91",
+        "homologationValues": [
+          {
+            "code": "91"
+          },
+          {
+            "code": "AMAZONAS"
+          }
+        ]
+      },
+      {
+        "codeSAP": "94",
+        "homologationValues": [
+          {
+            "code": "94"
+          },
+          {
+            "code": "GUAINIA"
+          }
+        ]
+      },
+      {
+        "codeSAP": "95",
+        "homologationValues": [
+          {
+            "code": "95"
+          },
+          {
+            "code": "GUAVIARE"
+          }
+        ]
+      },
+      {
+        "codeSAP": "97",
+        "homologationValues": [
+          {
+            "code": "97"
+          },
+          {
+            "code": "VAUPES"
+          }
+        ]
+      },
+      {
+        "codeSAP": "99",
+        "homologationValues": [
+          {
+            "code": "99"
+          },
+          {
+            "code": "VICHADA"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codeSAP": "MX",
+    "homologationValues": [
+      {
+        "code": "Mexico"
+      },
+      {
+        "code": "México"
+      },
+      {
+        "code": "MX"
+      }
+    ],
+    "states": [
+      {
+        "codeSAP": "AG",
+        "homologationValues": [
+          {
+            "code": "AG"
+          },
+          {
+            "code": "Aguascalientes"
+          }
+        ]
+      },
+      {
+        "codeSAP": "BN",
+        "homologationValues": [
+          {
+            "code": "BN"
+          },
+          {
+            "code": "Baja California"
+          }
+        ]
+      },
+      {
+        "codeSAP": "BS",
+        "homologationValues": [
+          {
+            "code": "BS"
+          },
+          {
+            "code": "Baja California Sur"
+          }
+        ]
+      },
+      {
+        "codeSAP": "CA",
+        "homologationValues": [
+          {
+            "code": "CA"
+          },
+          {
+            "code": "Coahuila"
+          }
+        ]
+      },
+      {
+        "codeSAP": "CH",
+        "homologationValues": [
+          {
+            "code": "CH"
+          },
+          {
+            "code": "Chihuahua"
+          }
+        ]
+      },
+      {
+        "codeSAP": "CL",
+        "homologationValues": [
+          {
+            "code": "CL"
+          },
+          {
+            "code": "Colima"
+          }
+        ]
+      },
+      {
+        "codeSAP": "CM",
+        "homologationValues": [
+          {
+            "code": "CM"
+          },
+          {
+            "code": "Campeche"
+          }
+        ]
+      },
+      {
+        "codeSAP": "CP",
+        "homologationValues": [
+          {
+            "code": "CP"
+          },
+          {
+            "code": "Chiapas"
+          }
+        ]
+      },
+      {
+        "codeSAP": "DF",
+        "homologationValues": [
+          {
+            "code": "DF"
+          },
+          {
+            "code": "Distrito Federal"
+          }
+        ]
+      },
+      {
+        "codeSAP": "DU",
+        "homologationValues": [
+          {
+            "code": "DU"
+          },
+          {
+            "code": "Durango"
+          }
+        ]
+      },
+      {
+        "codeSAP": "GJ",
+        "homologationValues": [
+          {
+            "code": "GJ"
+          },
+          {
+            "code": "Guanajuato"
+          }
+        ]
+      },
+      {
+        "codeSAP": "GR",
+        "homologationValues": [
+          {
+            "code": "GR"
+          },
+          {
+            "code": "Guerrero"
+          }
+        ]
+      },
+      {
+        "codeSAP": "HI",
+        "homologationValues": [
+          {
+            "code": "HI"
+          },
+          {
+            "code": "Hidalgo"
+          }
+        ]
+      },
+      {
+        "codeSAP": "JA",
+        "homologationValues": [
+          {
+            "code": "JA"
+          },
+          {
+            "code": "Jalisco"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MC",
+        "homologationValues": [
+          {
+            "code": "MC"
+          },
+          {
+            "code": "Michoacán"
+          },
+          {
+            "code": "Michoacan"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MR",
+        "homologationValues": [
+          {
+            "code": "MR"
+          },
+          {
+            "code": "Morelos"
+          }
+        ]
+      },
+      {
+        "codeSAP": "MX",
+        "homologationValues": [
+          {
+            "code": "MX"
+          },
+          {
+            "code": "México"
+          },
+          {
+            "code": "Mexico"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NA",
+        "homologationValues": [
+          {
+            "code": "NA"
+          },
+          {
+            "code": "Nayarit"
+          }
+        ]
+      },
+      {
+        "codeSAP": "NL",
+        "homologationValues": [
+          {
+            "code": "NL"
+          },
+          {
+            "code": "Nuevo León"
+          },
+          {
+            "code": "Nuevo Leon"
+          }
+        ]
+      },
+      {
+        "codeSAP": "OA",
+        "homologationValues": [
+          {
+            "code": "OA"
+          },
+          {
+            "code": "Oaxaca"
+          }
+        ]
+      },
+      {
+        "codeSAP": "PU",
+        "homologationValues": [
+          {
+            "code": "PU"
+          },
+          {
+            "code": "Puebla"
+          }
+        ]
+      },
+      {
+        "codeSAP": "QE",
+        "homologationValues": [
+          {
+            "code": "QE"
+          },
+          {
+            "code": "Querétaro"
+          },
+          {
+            "code": "Queretaro"
+          }
+        ]
+      },
+      {
+        "codeSAP": "QR",
+        "homologationValues": [
+          {
+            "code": "QR"
+          },
+          {
+            "code": "Quintana Roo"
+          }
+        ]
+      },
+      {
+        "codeSAP": "SI",
+        "homologationValues": [
+          {
+            "code": "SI"
+          },
+          {
+            "code": "Sinaloa"
+          }
+        ]
+      },
+      {
+        "codeSAP": "SL",
+        "homologationValues": [
+          {
+            "code": "SL"
+          },
+          {
+            "code": "San Luis Potosí"
+          },
+          {
+            "code": "San Luis Potosi"
+          }
+        ]
+      },
+      {
+        "codeSAP": "SO",
+        "homologationValues": [
+          {
+            "code": "SO"
+          },
+          {
+            "code": "Sonora"
+          }
+        ]
+      },
+      {
+        "codeSAP": "TB",
+        "homologationValues": [
+          {
+            "code": "TB"
+          },
+          {
+            "code": "Tabasco"
+          }
+        ]
+      },
+      {
+        "codeSAP": "TL",
+        "homologationValues": [
+          {
+            "code": "TL"
+          },
+          {
+            "code": "Tlaxcala"
+          }
+        ]
+      },
+      {
+        "codeSAP": "TM",
+        "homologationValues": [
+          {
+            "code": "TM"
+          },
+          {
+            "code": "Tamaulipas"
+          }
+        ]
+      },
+      {
+        "codeSAP": "VE",
+        "homologationValues": [
+          {
+            "code": "VE"
+          },
+          {
+            "code": "Veracruz"
+          }
+        ]
+      },
+      {
+        "codeSAP": "YU",
+        "homologationValues": [
+          {
+            "code": "YU"
+          },
+          {
+            "code": "Yucatán"
+          },
+          {
+            "code": "Yucatan"
+          }
+        ]
+      },
+      {
+        "codeSAP": "ZA",
+        "homologationValues": [
+          {
+            "code": "ZA"
+          },
+          {
+            "code": "Zacatecas"
+          }
+        ]
+      }
+    ]
+  }
+]

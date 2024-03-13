@@ -1,0 +1,30 @@
+[
+  {
+    "id": "Invoice",
+    "file_separator": "|",
+    "file_path": "C:\\Users\\PC\\Desktop\\ArchivosSalesForceSevenSoft",
+    "file_path_completed": "C:\\Users\\PC\\Desktop\\archivosSalesForceBackup\\invoiceBackupCompleted",
+    "file_path_error": "C:\\Users\\PC\\Desktop\\archivosSalesForceBackup\\invoiceBackupError",
+    "file_prefix": "INVOICE"
+
+  },
+  {
+    "id": "Customer",
+    "file_separator": "|",
+    "file_path": "C:\\Users\\PC\\Desktop\\ArchivosSalesForceSevenSoft",
+    "file_path_completed": "C:\\Users\\PC\\Desktop\\archivosSalesForceBackup\\customerBackupCompleted",
+    "file_path_error": "C:\\Users\\PC\\Desktop\\archivosSalesForceBackup\\customerBackupError",
+    "file_prefix": "CUST"
+
+  },
+  {
+    "id": "OpenOrders",
+    "file_separator": "|",
+    "file_path": "C:\\Users\\PC\\Desktop\\ArchivosSalesForceSevenSoft",
+    "file_path_completed": "C:\\Users\\PC\\Desktop\\archivosSalesForceBackup\\customerBackupCompleted",
+    "file_path_error": "C:\\Users\\PC\\Desktop\\archivosSalesForceBackup\\customerBackupError",
+    "file_prefix": "OPEN ORDERS"
+
+  }
+]
+

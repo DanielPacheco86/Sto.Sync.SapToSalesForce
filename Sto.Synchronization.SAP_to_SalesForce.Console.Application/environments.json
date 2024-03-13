@@ -1,0 +1,32 @@
+[
+  {
+    "id": "dev",
+    "auth_url": "https://test.salesforce.com/services/oauth2/token",
+    "api_path": "/services/data/v57.0/",
+    "username": "daniel.pacheco@sevensoftit.com",
+    "password": "ZTXmRU6uQKbMnPq",
+    "token": "o5348FkT8sVG38HGPAkc20Zhf",
+    "client_id": "3MVG9N35s_jHNF.HwVaDUdN2_7mmEOtk9ayUdI48Ss.ysKTRQ_Wwfa3MVfhQc27jiN6eU6T6X2IPyM6g4pqKI",
+    "secret": "210312A8F8EEAAE1EADBBF9F337A5833BCB24FDE59EC608028992C3F8601B2D2"
+  },
+  {
+    "id": "qa",
+    "auth_url": "https://test.salesforce.com/services/oauth2/token",
+    "api_path": "/services/data/v57.0/",
+    "username": "daniel.pacheco@sevensoftit.com.test",
+    "password": "PkKViLL3JxCFXra",
+    "token": "PlD7TQZNN5mzSMesOOeYOkN5s",
+    "client_id": "3MVG9rrOVHA54N6P5lq94qVQ49MnS3xNUITbc2cvC9m_4OnZqehjk0DZLvoSVjIl1APlc.1FzknKvddyQ7bZ4",
+    "secret": "C2432AEBFFAF3F65D171EE024797C7211BDEBA2C1E3A57717E0DAC41BE5114BC"
+  },
+  {
+    "id": "prod",
+    "auth_url": "https://login.salesforce.com/services/oauth2/token",
+    "api_path": "/services/data/v57.0/",
+    "username": "itadmin@stocorp.com",
+    "password": "sf.com@sto",
+    "token": "82YbBSEb7ENf2uO7hUqyJ7xb",
+    "client_id": "3MVG99OxTyEMCQ3h_bYeDGZuzbZ8xzHf4yU0VxKc7UPBQzxnwLmx5YXZvOCrxHUic9daq7VqguLlk3g4_L6SU",
+    "secret": "AAB948644D6055B1F4A9DD5F52BB775E16C3A35C501623A02CD7A5F1322B8430"
+  }
+]

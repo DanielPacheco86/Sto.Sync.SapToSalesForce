@@ -1,0 +1,11 @@
+E:\Sevensoft\Sto.Synchronization.SAP_to_SalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\bin\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.deps.json
+E:\Sevensoft\Sto.Synchronization.SAP_to_SalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\bin\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.dll
+E:\Sevensoft\Sto.Synchronization.SAP_to_SalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\bin\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.pdb
+E:\Sevensoft\Sto.Synchronization.SAP_to_SalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sevensoft\Sto.Synchronization.SAP_to_SalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.AssemblyInfoInputs.cache
+E:\Sevensoft\Sto.Synchronization.SAP_to_SalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.AssemblyInfo.cs
+E:\Sevensoft\Sto.Synchronization.SAP_to_SalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj.CoreCompileInputs.cache
+E:\Sevensoft\Sto.Synchronization.SAP_to_SalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.dll
+E:\Sevensoft\Sto.Synchronization.SAP_to_SalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\refint\Sto.Synchronization.SAP_to_SalesForce.Console.Common.dll
+E:\Sevensoft\Sto.Synchronization.SAP_to_SalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\Sto.Synchronization.SAP_to_SalesForce.Console.Common.pdb
+E:\Sevensoft\Sto.Synchronization.SAP_to_SalesForce\Sto.Synchronization.SAP_to_SalesForce.Console.Common\obj\Debug\net6.0\ref\Sto.Synchronization.SAP_to_SalesForce.Console.Common.dll

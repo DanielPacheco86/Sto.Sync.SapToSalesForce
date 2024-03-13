@@ -1,0 +1,443 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Application\\Sto.Synchronization.SAP_to_SalesForce.Console.Application.csproj": {}
+  },
+  "projects": {
+    "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Application\\Sto.Synchronization.SAP_to_SalesForce.Console.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Application\\Sto.Synchronization.SAP_to_SalesForce.Console.Application.csproj",
+        "projectName": "Sto.Synchronization.SAP_to_SalesForce.Console.Application",
+        "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Application\\Sto.Synchronization.SAP_to_SalesForce.Console.Application.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.csproj": {
+                "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.csproj"
+              },
+              "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj": {
+                "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj"
+              },
+              "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility.csproj": {
+                "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.csproj",
+        "projectName": "Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic",
+        "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj": {
+                "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj"
+              },
+              "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.External\\Sto.Synchronization.SAP_to_SalesForce.Console.External.csproj": {
+                "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.External\\Sto.Synchronization.SAP_to_SalesForce.Console.External.csproj"
+              },
+              "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility.csproj": {
+                "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj",
+        "projectName": "Sto.Synchronization.SAP_to_SalesForce.Console.Common",
+        "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.External\\Sto.Synchronization.SAP_to_SalesForce.Console.External.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.External\\Sto.Synchronization.SAP_to_SalesForce.Console.External.csproj",
+        "projectName": "Sto.Synchronization.SAP_to_SalesForce.Console.External",
+        "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.External\\Sto.Synchronization.SAP_to_SalesForce.Console.External.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.External\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj": {
+                "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj"
+              },
+              "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility.csproj": {
+                "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility.csproj",
+        "projectName": "Sto.Synchronization.SAP_to_SalesForce.Console.Utility",
+        "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj": {
+                "projectPath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
