@@ -61,7 +61,21 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
 
             System.IO.File.Move(filePathOriginal, destination);
         }
-     
 
+        public static string ReadFile(string file,FilesConfig fileConfig)
+        {
+            using (TextFieldParser parser = new TextFieldParser(file))
+            {
+                parser.TextFieldType = FieldType.Delimited;
+                parser.SetDelimiters(fileConfig.File_Separator);
+                string[] columnNames = parser.ReadFields();
+                while (!parser.EndOfData)
+                {
+                    string[] row = parser.ReadFields();
+                }
+            }
+            string content = File.ReadAllText(file);
+            return content;
+        }
     }
 }
