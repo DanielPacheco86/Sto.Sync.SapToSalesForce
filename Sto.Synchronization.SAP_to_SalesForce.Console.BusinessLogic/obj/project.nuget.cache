@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H1RjqRlmt3bFMbvqA2A+VL8AOLGcMXa674SZzcdM+a4bC+xvlf0VuEJAU9tgjoRjCEn96XHXaJbj2+bP912vLQ==",
+  "dgSpecHash": "lja5IGZe98zwWS1FAFwnLt3w4ebOMd3fUGRU9E033w91nYTz9li8oNF+8tN2Wa7jZIdmHiRyF3UhRfAV9wd5TA==",
   "success": true,
-  "projectFilePath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.csproj",
+  "projectFilePath": "E:\\Sevensoft\\Sto.Sync.SapToSalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic\\Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\enums.net\\4.0.1\\enums.net.4.0.1.nupkg.sha512",

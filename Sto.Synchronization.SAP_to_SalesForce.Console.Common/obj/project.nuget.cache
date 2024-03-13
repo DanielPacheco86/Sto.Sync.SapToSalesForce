@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fh8rNILJwj3UcQvsc+C4QMzMi94IRyrtTpYpsVbxTTZTgSFHF5aShM0AyNQKBsbE724gx3R8eVIpnXhMH0L+0g==",
+  "dgSpecHash": "9l04aB784JCssSCQ6gAaxbftS9qZAo/62v6KjhWoLa+bNpqvzE55p16bnPiHNgJYj0VI19ZiB7MtmSeJMfrzZQ==",
   "success": true,
-  "projectFilePath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj",
+  "projectFilePath": "E:\\Sevensoft\\Sto.Sync.SapToSalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Common\\Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",

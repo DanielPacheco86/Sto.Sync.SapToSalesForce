@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7PD73EyxP+dgXC72O/yVYsIyALvDBtIgkFGR/N33Q+vBi0tMAiZGW9uQXw6b3hlfmIMcz0Pyq4vHQgQ6K5sWig==",
+  "dgSpecHash": "SEpD3dSCLO0fBxYxMKyfhOwN5MYtvxkAgyFu3ao0MPALKWtxDDAzrj0vJ3gZrOGk7WNflbg0sYPUiBtyyDlUtQ==",
   "success": true,
-  "projectFilePath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.External\\Sto.Synchronization.SAP_to_SalesForce.Console.External.csproj",
+  "projectFilePath": "E:\\Sevensoft\\Sto.Sync.SapToSalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.External\\Sto.Synchronization.SAP_to_SalesForce.Console.External.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",

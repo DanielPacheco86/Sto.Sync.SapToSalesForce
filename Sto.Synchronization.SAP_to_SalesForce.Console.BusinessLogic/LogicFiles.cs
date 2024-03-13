@@ -23,7 +23,7 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
                // string[] files = Directory.GetFiles(config.File_Path);
                 string[] files = Directory.GetFiles(config.File_Path)
                                               .Where(file => Path.GetFileName(file)
-                                              .IndexOf(config.file_prefix,
+                                              .IndexOf(config.File_Prefix,
                                                StringComparison.OrdinalIgnoreCase) >= 0)
                                               .ToArray();
                 foreach (string file in files)
@@ -34,18 +34,34 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
             return processedFiles;
         }
 
-        public static void moveFileToCompleted(string filePath, FilesConfig config)
+        public static void MoveFile(string filePathOriginal, string newFilePath)
         {
-            string fileName = Path.GetFileName(filePath);
-            string destino = Path.Combine(config.file_path_completed, fileName);
-            System.IO.File.Move(filePath, destino);
+            string fileName = Path.GetFileName(filePathOriginal);
+            string destination = Path.Combine(newFilePath, fileName);
+            // Verificar si ya existe un archivo con el mismo nombre en la ruta de destino
+            if (File.Exists(destination))
+            {
+                string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileName);
+                string fileExtension = Path.GetExtension(fileName);
+
+                int counter = 1;
+                string newFileName = fileNameWithoutExtension + "_" + counter + fileExtension;
+                string newDestination = Path.Combine(newFilePath, newFileName);
+
+                // Incrementar el contador hasta que se encuentre un nombre de archivo único
+                while (File.Exists(newDestination))
+                {
+                    counter++;
+                    newFileName = fileNameWithoutExtension + "_" + counter + fileExtension;
+                    newDestination = Path.Combine(newFilePath, newFileName);
+                }
+
+                destination = newDestination;
+            }
+
+            System.IO.File.Move(filePathOriginal, destination);
         }
-        public static void moveFileToError(string filePath, FilesConfig config)
-        {
-            string fileName = Path.GetFileName(filePath);
-            string destino = Path.Combine(config.file_path_error, fileName);
-            System.IO.File.Move(filePath, destino);
-        }
+     
 
     }
 }

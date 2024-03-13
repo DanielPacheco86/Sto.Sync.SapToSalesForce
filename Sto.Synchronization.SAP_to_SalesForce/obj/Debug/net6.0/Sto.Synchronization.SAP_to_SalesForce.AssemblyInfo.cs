@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sto.Synchronization.SAP_to_SalesForce")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b7f42b4cbfb9c8de51640727ff6fb12fda0d9dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sto.Synchronization.SAP_to_SalesForce")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sto.Synchronization.SAP_to_SalesForce")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

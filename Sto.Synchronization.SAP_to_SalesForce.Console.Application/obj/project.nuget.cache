@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wOK/7c4FAHERQa+VH6XpbiaQ0mwHj0KYrBr0cbJdpZcyzY6VtAfumugkgU7iL78g9F9yKmq0O3ezt+Wuic/Q3w==",
+  "dgSpecHash": "nO7uCH2rNeCnj8fm8eW0b6WeYZ0Yc7dStF+6bAjqHH0IkyqOPogCrwwk26yoUc63Zv9WflI1/78iLs3QAkkP6A==",
   "success": true,
-  "projectFilePath": "E:\\Sevensoft\\Sto.Synchronization.SAP_to_SalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Application\\Sto.Synchronization.SAP_to_SalesForce.Console.Application.csproj",
+  "projectFilePath": "E:\\Sevensoft\\Sto.Sync.SapToSalesForce\\Sto.Synchronization.SAP_to_SalesForce.Console.Application\\Sto.Synchronization.SAP_to_SalesForce.Console.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\enums.net\\4.0.1\\enums.net.4.0.1.nupkg.sha512",
@@ -30,10 +30,10 @@
     "C:\\Users\\PC\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
   ],
   "logs": []
 }

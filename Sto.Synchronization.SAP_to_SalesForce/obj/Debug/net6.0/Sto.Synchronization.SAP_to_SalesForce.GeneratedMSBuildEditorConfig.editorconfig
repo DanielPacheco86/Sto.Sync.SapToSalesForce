@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Sto.Synchronization.SAP_to_SalesForce
-build_property.ProjectDir = E:\Sevensoft\Sto.Synchronization.SAP_to_SalesForce\Sto.Synchronization.SAP_to_SalesForce\
+build_property.ProjectDir = E:\Sevensoft\Sto.Sync.SapToSalesForce\Sto.Synchronization.SAP_to_SalesForce\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
