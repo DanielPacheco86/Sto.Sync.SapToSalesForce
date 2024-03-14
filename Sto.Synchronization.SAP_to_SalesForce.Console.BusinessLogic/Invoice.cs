@@ -1,33 +1,41 @@
-﻿using Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.Class;
+﻿using NPOI.Util.Collections;
+using Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.Class;
 using Sto.Synchronization.SAP_to_SalesForce.Console.Common;
+using System.Reflection;
 
 namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
 {
     public class Invoice : SynchronizerManager
     {
        
-        public override List<GenericFile> SynchronizeDataAsync(FileConfig data)
+        public override List<GenericFile> SynchronizeDataAsync(FileConfig config)
         {
             List<GenericFile> genericFiles = new List<GenericFile>();
-            List<string> fileList = FileHelper.GetFiles(data);
-            // 1.Ciclo para recorrer archivos a procesar
+            List<string> fileList = FileHelper.GetFiles(config);
+            PropertyInfo[] properties = typeof(InvoiceFile).GetProperties();
             foreach (string file in fileList)
             {
-                // 1.1 Leer el contenido del archivo
                 try
                 {
-                    List<string[]> row = FileHelper.ReadFile(file,data);
-
+                    List<string[]> data = FileHelper.ReadFile(file,config);
+                    foreach (string[] row in data)
+                    {
+                        InvoiceFile invoiceFile = new InvoiceFile();
+                        for (int i = 0; i < Math.Min(properties.Length, row.Length); i++)
+                        {
+                            properties[i].SetValue(invoiceFile, row[i]);
+                        }
+                        genericFiles.Add(invoiceFile);
+                    }
+                    FileHelper.MoveFile(file,config.File_Path_Completed);
                 }
-                catch { 
-                
+                catch 
+                {
+                    FileHelper.MoveFile(file,config.File_Path_Error);
                 }
 
                 
             }
-            // 1.2 Convertir cada row a objeto common
-            // 1.3 agregar objeto common a una lista de objetos common padre
-            // 1.4 mover el aarchivo a complete o error dependiendo del caso
             return genericFiles;
         }
     }

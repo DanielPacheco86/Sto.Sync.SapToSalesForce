@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic.FileIO;
+﻿using System.IO;
 
 using Sto.Synchronization.SAP_to_SalesForce.Console.Common;
 
@@ -12,7 +12,7 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
             List<string> processedFiles = new List<string>();
             if (Directory.Exists(config.File_Path))
             {
-               // string[] files = Directory.GetFiles(config.File_Path);
+               
                 string[] files = Directory.GetFiles(config.File_Path)
                                               .Where(file => Path.GetFileName(file)
                                               .IndexOf(config.File_Prefix,
@@ -30,42 +30,67 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
         {
             string fileName = Path.GetFileName(filePathOriginal);
             string destination = Path.Combine(newFilePath, fileName);
-            
-            if (File.Exists(destination))
+            try 
             {
-                string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileName);
-                string fileExtension = Path.GetExtension(fileName);
-
-                int counter = 1;
-                string newFileName = fileNameWithoutExtension + "_" + counter + fileExtension;
-                string newDestination = Path.Combine(newFilePath, newFileName);
-
-                while (File.Exists(newDestination))
+                if (!Directory.Exists(newFilePath))
                 {
-                    counter++;
-                    newFileName = fileNameWithoutExtension + "_" + counter + fileExtension;
-                    newDestination = Path.Combine(newFilePath, newFileName);
+                    Directory.CreateDirectory(newFilePath);
+                }
+                if (File.Exists(destination))
+                {
+                    string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileName);
+                    string fileExtension = Path.GetExtension(fileName);
+
+                    int counter = 1;
+                    string newFileName = fileNameWithoutExtension + "_" + counter + fileExtension;
+                    string newDestination = Path.Combine(newFilePath, newFileName);
+
+                    while (File.Exists(newDestination))
+                    {
+                        counter++;
+                        newFileName = fileNameWithoutExtension + "_" + counter + fileExtension;
+                        newDestination = Path.Combine(newFilePath, newFileName);
+                    }
+
+                    destination = newDestination;
                 }
 
-                destination = newDestination;
+                System.IO.File.Move(filePathOriginal, destination,false);
+            
+            
             }
+            catch (Exception ex)
+            {
 
-            System.IO.File.Move(filePathOriginal, destination);
+
+            }
         }
 
         public static List<string[]> ReadFile(string file, FileConfig fileConfig)
         {
             List<string[]> rows = new List<string[]>();
          
-            using (TextFieldParser parser = new TextFieldParser(file))
+            using (StreamReader reader = new StreamReader(file))
             {
-                parser.TextFieldType = FieldType.Delimited;
-                parser.SetDelimiters(fileConfig.File_Separator);
-                string[] columnNames = parser.ReadFields();
-                while (!parser.EndOfData)
+                if (reader.Peek() == -1)
                 {
-                    string[] row = parser.ReadFields();
-                    rows.Add(row);
+                    throw new InvalidOperationException($"File empty");
+
+                }
+                else
+                {
+                    string firstRowHeaders = reader.ReadLine();
+                    string[] columnNames = firstRowHeaders.Split(fileConfig.File_Separator);
+
+                
+                    while (!reader.EndOfStream)
+                    {
+                        string rowData = reader.ReadLine();
+                        string[] rowSeparate = rowData.Split(fileConfig.File_Separator);
+                    
+                        rows.Add(rowSeparate);
+                    }
+                    
                 }
             }
             

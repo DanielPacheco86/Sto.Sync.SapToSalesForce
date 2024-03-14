@@ -3,7 +3,7 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.Common
 {
     public class OpenOrderFile : GenericFile
     {
-        OpenOrderFile() {
+        public OpenOrderFile() {
 
             OrderType = string.Empty;
             SaleOrderNumber = string.Empty;
@@ -11,6 +11,8 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.Common
             RequestedDeliveryDate = string.Empty;
             SoldTo = string.Empty;
             CustomerName = string.Empty;
+            NetValueOfOrder = string.Empty;
+            NetWeightOfOrder = string.Empty;
             UnitOfMeasurement = string.Empty;
             DeliveryNumber = string.Empty;
             DeliveryCreateDate = string.Empty;
@@ -26,8 +28,8 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.Common
         public string RequestedDeliveryDate { get; set; }
         public string SoldTo { get; set; }
         public string CustomerName { get; set; }
-        public decimal NetValueOfOrder { get; set; }
-        public decimal NetWeightOfOrder { get; set; }
+        public string NetValueOfOrder { get; set; }
+        public string NetWeightOfOrder { get; set; }
         public string UnitOfMeasurement { get; set; }
         public string DeliveryNumber { get; set; }
         public string DeliveryCreateDate { get; set; }
