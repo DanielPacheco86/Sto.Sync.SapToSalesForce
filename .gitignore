@@ -368,3 +368,14 @@ MigrationBackup/
 /Sto.Synchronization.SAP_to_SalesForce.Console.Common/obj
 /Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic/obj
 /Sto.Synchronization.SAP_to_SalesForce.Console.Utility/obj
+Sto.Synchronization.SAP_to_SalesForce.Console.Utility/obj/Debug/net6.0/Sto.Synchronization.SAP_to_SalesForce.Console.Utility.csproj.FileListAbsolute.txt
+Sto.Synchronization.SAP_to_SalesForce.Console.Utility/obj/Debug/net6.0/Sto.Synchronization.SAP_to_SalesForce.Console.Utility.assets.cache
+Sto.Synchronization.SAP_to_SalesForce.Console.External/obj/Debug/net6.0/Sto.Synchronization.SAP_to_SalesForce.Console.External.csproj.FileListAbsolute.txt
+Sto.Synchronization.SAP_to_SalesForce.Console.External/obj/Debug/net6.0/Sto.Synchronization.SAP_to_SalesForce.Console.External.assets.cache
+Sto.Synchronization.SAP_to_SalesForce.Console.Common/obj/Debug/net6.0/Sto.Synchronization.SAP_to_SalesForce.Console.Common.csproj.FileListAbsolute.txt
+Sto.Synchronization.SAP_to_SalesForce.Console.Common/obj/Debug/net6.0/Sto.Synchronization.SAP_to_SalesForce.Console.Common.assets.cache
+Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic/obj/Debug/net6.0/Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.csproj.FileListAbsolute.txt
+Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic/obj/Debug/net6.0/Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.assets.cache
+Sto.Synchronization.SAP_to_SalesForce.Console.Application/obj/Debug/net6.0-windows/Sto.Synchronization.SAP_to_SalesForce.Console.Application.csproj.FileListAbsolute.txt
+Sto.Synchronization.SAP_to_SalesForce.Console.Application/obj/Debug/net6.0-windows/Sto.Synchronization.SAP_to_SalesForce.Console.Application.assets.cache
+.vs/Sto.Synchronization.SAP_to_SalesForce/v17/.suo
