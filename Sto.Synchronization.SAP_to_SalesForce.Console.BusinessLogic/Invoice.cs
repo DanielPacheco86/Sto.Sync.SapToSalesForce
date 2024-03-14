@@ -6,8 +6,9 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
     public class Invoice : SynchronizerManager
     {
        
-        public override List<string> SynchronizeDataAsync(FileConfig data)
+        public override List<GenericFile> SynchronizeDataAsync(FileConfig data)
         {
+            List<GenericFile> genericFiles = new List<GenericFile>();
             List<string> fileList = FileHelper.GetFiles(data);
             // 1.Ciclo para recorrer archivos a procesar
             foreach (string file in fileList)
@@ -27,7 +28,7 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
             // 1.2 Convertir cada row a objeto common
             // 1.3 agregar objeto common a una lista de objetos common padre
             // 1.4 mover el aarchivo a complete o error dependiendo del caso
-            return fileList;
+            return genericFiles;
         }
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Sto.Synchronization.SAP_to_SalesForce.Console.Common
 {
-    public class InvoiceFile
+    public class InvoiceFile: GenericFile
     {
         public InvoiceFile() 
         {

@@ -5,10 +5,11 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
 {
     internal class Customer : SynchronizerManager
     {
-        public override List<string> SynchronizeDataAsync(FileConfig data)
+        public override List<GenericFile> SynchronizeDataAsync(FileConfig data)
         {
+            List<GenericFile> genericFiles = new List<GenericFile>();
             List<string> fileList = FileHelper.GetFiles(data);
-            return fileList;
+            return genericFiles;
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace Sto.Synchronization.SAP_to_SalesForce.Console.Common
 {
-    public class CustomerFile
+    public class CustomerFile : GenericFile
     {
         public CustomerFile() {
             AccountNumber = string.Empty;
