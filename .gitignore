@@ -354,3 +354,8 @@ MigrationBackup/
 /.vs
 /.vs
 /Sto.Synchronization.SAP_to_SalesForce.Console.Application/bin
+/Sto.Synchronization.SAP_to_SalesForce.Console.Utility/obj
+/Sto.Synchronization.SAP_to_SalesForce.Console.Utility/bin
+/Sto.Synchronization.SAP_to_SalesForce.Console.External/bin
+/Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic/obj
+/Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic/bin
