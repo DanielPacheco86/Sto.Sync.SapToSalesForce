@@ -351,3 +351,4 @@ MigrationBackup/
 *.v2
 *.cache
 *.v2
+/.vs
