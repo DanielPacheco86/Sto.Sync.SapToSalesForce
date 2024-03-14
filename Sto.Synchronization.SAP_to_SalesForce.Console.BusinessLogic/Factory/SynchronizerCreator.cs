@@ -7,6 +7,7 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.Factory
     {
         public SynchronizerManager GetSynchronizerObject(string id)
         {
+            Utility.Logger.Instance.WriteInformation($"Creating synchronized object: {id}");
             switch (id)
             {
                 case "Invoice":

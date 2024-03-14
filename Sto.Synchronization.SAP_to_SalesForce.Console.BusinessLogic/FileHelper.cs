@@ -10,18 +10,26 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
         public static List<string> GetFiles(FileConfig config)
         {
             List<string> processedFiles = new List<string>();
-            if (Directory.Exists(config.File_Path))
+            try
             {
-               
-                string[] files = Directory.GetFiles(config.File_Path)
-                                              .Where(file => Path.GetFileName(file)
-                                              .IndexOf(config.File_Prefix,
-                                               StringComparison.OrdinalIgnoreCase) >= 0)
-                                              .ToArray();
-                foreach (string file in files)
+                Utility.Logger.Instance.WriteInformation($"Get files with this configuration: {config}");
+                if (Directory.Exists(config.File_Path))
                 {
-                    processedFiles.Add(file);
+
+                    string[] files = Directory.GetFiles(config.File_Path)
+                                                  .Where(file => Path.GetFileName(file)
+                                                  .IndexOf(config.File_Prefix,
+                                                   StringComparison.OrdinalIgnoreCase) >= 0)
+                                                  .ToArray();
+                    Utility.Logger.Instance.WriteInformation($"Total files getting {files.Length}");
+                    foreach (string file in files)
+                    {
+                        processedFiles.Add(file);
+                    }
                 }
+            }
+            catch(Exception ex) {
+                Utility.Logger.Instance.WriteError(ex.Message);
             }
             return processedFiles;
         }
@@ -54,20 +62,21 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
 
                     destination = newDestination;
                 }
-
+                Utility.Logger.Instance.WriteInformation($"Move file from: {filePathOriginal} to {destination}");
                 System.IO.File.Move(filePathOriginal, destination,false);
             
             
             }
             catch (Exception ex)
             {
-
+                Utility.Logger.Instance.WriteError(ex.Message);
 
             }
         }
 
         public static List<string[]> ReadFile(string file, FileConfig fileConfig)
         {
+            Utility.Logger.Instance.WriteInformation($"Reading file: {file}");
             List<string[]> rows = new List<string[]>();
          
             using (StreamReader reader = new StreamReader(file))

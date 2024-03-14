@@ -15,6 +15,7 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
 
         public void Execute()
         {
+            Utility.Logger.Instance.WriteInformation("Starting process getting the class per configuration");
             IEnumerable<FileConfig> allConfigFiles = GetConfigurationFiles();
             foreach (FileConfig configFile in allConfigFiles)
             {
@@ -24,6 +25,7 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
         }
         public static IEnumerable<FileConfig> GetConfigurationFiles()
         {
+            Utility.Logger.Instance.WriteInformation("Getting configuration files and desearizable configuration data");
             string jsonFilesConfig = File.ReadAllText(ConfigurationManager.GetConfigurationValueByKey("filesConfigPath"));
             return Extender.DeSerializeObject<IEnumerable<FileConfig>>(jsonFilesConfig);
             

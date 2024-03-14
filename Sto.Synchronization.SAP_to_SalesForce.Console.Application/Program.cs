@@ -6,6 +6,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.Interface;
 using Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.Factory;
 using System.Threading.Tasks;
+using Serilog.Core;
+using Sto.Synchronization.SAP_to_SalesForce.Console.Utility;
+
 namespace Sto.Synchronization.SAP_to_SalesForce.Console.Application
 {
     internal class Program
@@ -13,16 +16,18 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.Application
         private static IServiceProvider _serviceProvider;
         static async Task Main(string[] args)
         {
-            ConfigureServices();
             try
-            {                
+            {
+
+                Utility.Logger.Instance.WriteInformation("Starting process");
+                ConfigureServices();
                 IServiceScope scope = _serviceProvider.CreateScope();
                 scope.ServiceProvider.GetRequiredService<FileManager>().Execute();
                 DisposeServices();
             }
             catch (Exception ex)
-            {   
-                string message = ex.ToString();
+            {
+                Utility.Logger.Instance.WriteError(ex.Message);
             }
             
         }
