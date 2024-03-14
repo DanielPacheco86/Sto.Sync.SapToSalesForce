@@ -352,3 +352,5 @@ MigrationBackup/
 *.cache
 *.v2
 /.vs
+/.vs
+/Sto.Synchronization.SAP_to_SalesForce.Console.Application/bin
