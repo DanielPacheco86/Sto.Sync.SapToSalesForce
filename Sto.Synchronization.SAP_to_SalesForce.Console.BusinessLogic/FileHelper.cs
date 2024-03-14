@@ -30,7 +30,7 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
         {
             string fileName = Path.GetFileName(filePathOriginal);
             string destination = Path.Combine(newFilePath, fileName);
-            // Verificar si ya existe un archivo con el mismo nombre en la ruta de destino
+            
             if (File.Exists(destination))
             {
                 string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileName);
@@ -40,7 +40,6 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
                 string newFileName = fileNameWithoutExtension + "_" + counter + fileExtension;
                 string newDestination = Path.Combine(newFilePath, newFileName);
 
-                // Incrementar el contador hasta que se encuentre un nombre de archivo único
                 while (File.Exists(newDestination))
                 {
                     counter++;
@@ -54,8 +53,10 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
             System.IO.File.Move(filePathOriginal, destination);
         }
 
-        public static string ReadFile(string file, FileConfig fileConfig)
+        public static List<string[]> ReadFile(string file, FileConfig fileConfig)
         {
+            List<string[]> rows = new List<string[]>();
+         
             using (TextFieldParser parser = new TextFieldParser(file))
             {
                 parser.TextFieldType = FieldType.Delimited;
@@ -64,10 +65,12 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
                 while (!parser.EndOfData)
                 {
                     string[] row = parser.ReadFields();
+                    rows.Add(row);
                 }
             }
-            string content = File.ReadAllText(file);
-            return content;
+            
+      
+            return rows;
         }
     }
 }

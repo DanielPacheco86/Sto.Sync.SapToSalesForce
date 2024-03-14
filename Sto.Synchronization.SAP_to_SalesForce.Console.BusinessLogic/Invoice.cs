@@ -13,7 +13,15 @@ namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
             foreach (string file in fileList)
             {
                 // 1.1 Leer el contenido del archivo
-                string contentFile = FileHelper.ReadFile(file,data);
+                try
+                {
+                    List<string[]> row = FileHelper.ReadFile(file,data);
+
+                }
+                catch { 
+                
+                }
+
                 
             }
             // 1.2 Convertir cada row a objeto common
