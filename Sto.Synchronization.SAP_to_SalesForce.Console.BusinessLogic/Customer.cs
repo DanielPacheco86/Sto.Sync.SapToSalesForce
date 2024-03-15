@@ -1,6 +1,5 @@
 ﻿using Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic.Class;
 using Sto.Synchronization.SAP_to_SalesForce.Console.Common;
-using static Org.BouncyCastle.Math.EC.ECCurve;
 using System.Reflection;
 
 namespace Sto.Synchronization.SAP_to_SalesForce.Console.BusinessLogic
